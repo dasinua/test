@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Шаблоны</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" >
+	<meta name="keywords" content="" >
+	<link rel="icon" href="favicon.png">
+</head>
+<body>
+
+
+<!-- name -->
+<section class="da-name">
+	<!-- container  -->
+	<div class="container">
+		<h3 class="da-name__title">
+			
+		</h3>
+		<h4 class="da-name__subtitle">
+			
+		</h4>
+		<!-- wrap -->
+		<div class="da-name__wrap">
+			<!-- item -->
+			<div class="da-name__item">
+				
+			</div>
+			<!-- /item -->
+		</div>
+		<!-- /wrap -->
+		<p class="da-name__text">
+			
+		</p>
+	</div>
+	<!-- /container -->
+</section>
+<!-- /name -->
+
+<code>
+	&:before{
+		position: absolute;
+		content: "";
+		width: 30px;
+		height: 30px;
+		background-image: url(../images/name.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: 1%;
+		left: 1%;
+	}
+</code>
+
+
+<!-- slick -->
+<div class="container">
+	<div class="slick-sliders">
+	    <div><img src="http://placehold.it/800x400"></div>
+	    <div><img src="http://placehold.it/800x400"></div>
+	    <div><img src="http://placehold.it/800x400"></div>
+	    <div><img src="http://placehold.it/800x400"></div>
+	    <div><img src="http://placehold.it/800x400"></div>
+	</div>
+</div>
+<!-- /slick -->
+
+<!-- modal-link -->
+<button class="link-bid">Участвовать</button>
+<!-- / modal-link -->
+
+
+<!-- Заявка -->
+<div id="modalBid" class="da-modal">
+	<form id="formBid">
+		<input type="text" name="name" class="da-modal__input"  placeholder="Имя" required>
+		<input type="tel" name="phone" class="da-modal__input maskedinput"  placeholder="Телефон" required>	
+		<input type="email" name="email" class="da-modal__input"  placeholder="Почта" required>
+		<textarea name="text" class="da-modal__input da-contacts__textarea" placeholder="Комментарии"></textarea>
+		<input type="hidden" name="hidden" value="Получить подарок">
+		<button type="submit" class="btn da-modal__btn">отправить</button>
+	</form>
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<div class="overlay"></div>
+<!-- /Заявка -->
+
+<!-- thanks -->
+<div id="thanks" class="da-modal">
+	<h3 class="da-modal__title">Спасибо за заявку!</h3>
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<div class="overlay"></div>
+<!-- /thanks -->
+
+<!-- buttonTop -->
+<div id="buttonTop">
+    <img src="images/button-top.png" alt="buttonTop">
+</div>
+<!-- /buttonTop -->
+
+</body>
+</html>

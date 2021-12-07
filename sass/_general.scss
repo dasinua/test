@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;  
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+input{
+  border: none;
+  outline: none;
+}
+input::placeholder{
+  color: #000;
+}
+input:focus::placeholder {
+  color: transparent;
+} 
+button:hover{
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 88px;
+}
+h2{
+  font-size: 62px;
+}
+h3{
+  font-size: 43px;
+}
+h4{
+  font-size: 30px;
+}
+h5{
+  font-size: 26px;
+}
+h6{
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+  
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px; 
+    } 
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px; 
+    } 
+}
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px; 
+    } 
+}
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1170px; 
+    } 
+}
+
+
+.btn{
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+  transition: .3s ease-in;
+}
+
+//buttonTop 
+ #buttonTop {
+    width: 64px;
+    border: none;
+    background: none;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+ }
+
+ 
+
+// < 1440px (19" 1440х900px, 15,6" 1366х768px)
+@media (max-width: 1440px) {
+  
+
+}
+
+// < 1200px (iPad Pro-1024px)
+@media (max-width: 1199.98px) {
+  
+
+}
+
+// < 992px (iPad-768px)
+@media (max-width: 991.98px) {
+  
+
+}
+
+// < 768px
+@media (max-width: 767.98px) {
+  
+
+}
+
+// < 576px (iPhoneX, iPhone6/7/8-375px)
+@media (max-width: 575.98px) {
+  
+
+}
+
+// < 360px (iPhone5/SE - 320px)
+@media (max-width: 359.98px) {
+  
+
+}
+

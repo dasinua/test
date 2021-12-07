@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>DAS</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" >
+	<meta name="keywords" content="" >
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="favicon.png">
+	
+	<link rel="stylesheet" href="css/styles.css">
+	
+</head>
+<body>
+<h1>11111111111111</h1>
+<header class="da-header" id="daHeader">
+<!-- nav -->
+<section class="da-nav" id="daNav">
+	<div class="container">
+		<div class="da-nav__wrap">
+			<!-- logo -->
+			<a class="logo" href="index.html">
+				<img src="images/map-pin.png" alt="">
+			</a>
+			<!-- /logo -->
+			<!-- toggle -->
+			<div class="da-nav__toggle">
+				<input type="checkbox" id="checkbox" class="checkbox visuallyHidden">
+			    <label for="checkbox">
+			        <div class="hamburger hamburger1">
+			            <span class="bar bar1"></span>
+			            <span class="bar bar2"></span>
+			            <span class="bar bar3"></span>
+			            <span class="bar bar4"></span>
+			        </div>
+			    </label>
+			</div>
+			<!-- /toggle -->
+			<!-- menu -->
+		    <div class="da-menu" id="daMenu">
+		    	<ul class="da-menu__list">
+		    		<li class="da-menu__item"><a href="#sec1">Пункт меню</a></li>
+		    		<li class="da-menu__item"><a href="#sec2">Пункт меню</a></li>
+		    		<li class="da-menu__item"><a href="#sec3">Пункт меню</a></li>
+		    		<li class="da-menu__item"><a href="#sec4">Пункт меню</a></li>
+		    		<li class="da-menu__item"><a href="#sec5">Пункт меню</a></li>
+		    	</ul>
+		    </div>
+			<!-- /menu -->
+		</div>
+	</div>
+</section>
+<!-- /nav -->
+</header>
+
+
+
+<!-- footer -->
+<footer class="da-footer">
+
+</footer>
+<!-- /footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script src="js/maskedinput.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Заявка -->
+<div id="modalBid" class="da-modal">
+	<form id="formBid">
+		<input type="text" name="name" class="da-modal__input"  placeholder="Имя" required>
+		<input type="tel" name="phone" class="da-modal__input maskedinput"  placeholder="Телефон" required>	
+		<input type="email" name="email" class="da-modal__input"  placeholder="Почта" required>
+		<textarea name="text" class="da-modal__input da-contacts__textarea" placeholder="Комментарии"></textarea>
+		<input type="hidden" name="hidden" value="Получить подарок">
+		<button type="submit" class="btn da-modal__btn">отправить</button>
+	</form>
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<div class="overlay"></div>
+<!-- /Заявка -->
+
+<!-- thanks -->
+<div id="thanks" class="da-modal">
+	<h3 class="da-modal__title">Спасибо за заявку!</h3>
+	<a class="modal-close" title="Закрыть"></a>
+</div>
+<div class="overlay"></div>
+<!-- /thanks -->
+
+<!-- buttonTop -->
+<div id="buttonTop">
+    <img src="images/button-top.png" alt="buttonTop">
+</div>
+<!-- /buttonTop -->
+
+</body>
+</html>

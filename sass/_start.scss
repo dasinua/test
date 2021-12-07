@@ -1,0 +1,74 @@
+.da-name {
+	background-image: url(../images/name_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 0%; 
+	padding: 1em 0 1em;
+	&__title{
+		
+	}
+	&__subtitle{
+		
+	}
+	&__wrap{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+	&__item{
+		
+	}
+	&__text{
+		
+	}
+}
+
+
+
+
+// < 1440px (19" 1440х900px, 15,6" 1366х768px)
+@media (max-width: 1440px) {
+	
+
+}
+
+// < 1200px (iPad Pro-1024px)
+@media (max-width: 1199.98px) {
+	
+
+}
+
+// < 992px (iPad-768px)
+@media (max-width: 991.98px) {
+	
+
+}
+
+// < 768px
+@media (max-width: 767.98px) {
+	
+
+}
+
+// < 576px (iPhoneX, iPhone6/7/8-375px)
+@media (max-width: 575.98px) {
+	
+
+}
+
+// < 360px (iPhone5/SE - 320px)
+@media (max-width: 359.98px) {
+	
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "start2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "das",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-react": "^7.27.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
